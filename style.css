@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  background-color: #000;
+  font-family: Arial, sans-serif;
+}
+
+.controls {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 10;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 10px;
+  border-radius: 8px;
+}
+
+button {
+  padding: 5px 10px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+label {
+  color: #fff;
+  font-size: 14px;
+}
+
+.sliders label {
+  display: block;
+  margin-top: 5px;
+}
+
+.label {
+  position: absolute;
+  color: white;
+  font-weight: bold;
+  pointer-events: none;
+  font-size: 14px;
+  z-index: 5;
+}
+
+#infoModal {
+  display: none;
+  position: absolute;
+  top: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #111;
+  color: white;
+  padding: 20px;
+  border: 2px solid white;
+  border-radius: 10px;
+  z-index: 20;
+  width: 300px;
+}
+
+#infoModalClose {
+  display: none;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  z-index: 21;
+  background: red;
+  color: white;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
